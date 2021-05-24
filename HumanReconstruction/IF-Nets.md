@@ -37,7 +37,7 @@
 
 **Voxel-based**: 大量的内存需要，输出过于粗糙，没有细节。
 
-**Point Cloud**: 不易渲染和可视化。
+**Point Cloud**: 不易渲染和可视化。&nbsp;
 
 
 
@@ -47,7 +47,7 @@
 
 可以用于任意分辨率。
 
-表面能够提取并使用任意的cubes算法。
+表面能够提取并使用任意的cubes算法。&nbsp;
 
 
 
@@ -58,7 +58,7 @@
 - [Learning 3d reconstruction in function space][https://arxiv.org/pdf/1812.03828.pdf]
 
 - [Learning implicit fields for generative shape modeling][https://arxiv.org/pdf/1812.02822.pdf]
-- [Pixel-aligned implicit function for high-resolution clothed human digitization][https://arxiv.org/pdf/1905.05172.pdf]
+- [Pixel-aligned implicit function for high-resolution clothed human digitization][https://arxiv.org/pdf/1905.05172.pdf]&nbsp;
 
 
 
