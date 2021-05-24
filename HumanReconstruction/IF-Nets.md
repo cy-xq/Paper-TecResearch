@@ -47,9 +47,9 @@
 
 可以用于任意分辨率。
 
-表面能够提取并使用任意的cubes算法。&nbsp;
+表面能够提取并使用任意的cubes算法。
 
-
+&nbsp;
 
 ***基于隐函数的渲染***
 
@@ -58,9 +58,9 @@
 - [Learning 3d reconstruction in function space][https://arxiv.org/pdf/1812.03828.pdf]
 
 - [Learning implicit fields for generative shape modeling][https://arxiv.org/pdf/1812.02822.pdf]
-- [Pixel-aligned implicit function for high-resolution clothed human digitization][https://arxiv.org/pdf/1905.05172.pdf]&nbsp;
+- [Pixel-aligned implicit function for high-resolution clothed human digitization][https://arxiv.org/pdf/1905.05172.pdf]
 
-
+&nbsp;
 
 作者从五个不同情况的输入进行实验（下面是作者展示时间）。
 
