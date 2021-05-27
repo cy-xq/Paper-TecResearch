@@ -78,11 +78,32 @@
 **用途分类**：刚性重建(物体)，人体重建
 
 - 体素：受限于分辨率，无法补全不完整的人体
-- 网格：能够构建比较思华的细节，但是受限于网格本身的模板，策略只适用于一个重建人体。
+- 网格：能够构建比较丝滑的细节，但是受限于网格本身的模板，策略只适用于一个重建人体。
 - 点云：无法被渲染。
 - 隐函数：基于3D点的有序点和2D的图像特征，之前的工作无法完成复杂姿势的重建，同时只专注于图像的重建，而不是3D输入的重建。
 
 ## 方法
 
+A novel encoding and decoding tandem capable of addressing the above limitations for the task of 3D reconstruction from point clouds or occupancy grids.
 
+人话：前后相连的编码器和解码器。能够解决点云和网格的局限性。
 
+![image-20210527103235550](images/IF-Nets/image-20210527103235550.png)
+
+## 数据集及结果
+
+- 3D scans of humans
+- ShapeNet（多物体）
+
+<img src="images/IF-Nets/image-20210527103849859.png" alt="image-20210527103849859" style="zoom:50%;" /><img src="images/IF-Nets/image-20210527103922186.png" alt="image-20210527103922186" style="zoom:50%;" />
+
+![image-20210527103951810](images/IF-Nets/image-20210527103951810.png)
+
+## 思考
+
+- 方法：
+  - 隐函数在细腻程度和重建流畅性上有比较不错的效果，能够平滑连续的曲线进行重建，是一个比较好的重建方法。但是函数的拟合难度大。
+  - 论文中没有给出具体训练细节，模型细节比较难复现
+- 未来方向
+  - 利用隐函数和局部信息进行更加精细化的重建（纹理，表情等）
+  - 能否对单张图像做双阶段，先估计深度，多了一个信息去做重建。
